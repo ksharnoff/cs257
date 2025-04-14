@@ -1,0 +1,25 @@
+AUTHORS: Mai Tran and Kezia Sharnoff
+
+DATASET: Our dataset is of country flags, with details about the colors and symbols on each. 
+It is hosted on UC Irvine's Machine Learning site:
+Flags. 1990. UCI Machine Learning Repository. https://doi.org/10.24432/C52C7Z.
+
+STORY: A flag enthusiast who wants to see what country flags have purple on them.
+
+IMPLEMENTATION: Drop-down menu for colors that will display flags with purple. It
+will be displayed in a list and by coloring in those countries purple on a world
+map, the others would be gray.  
+
+STORY: A D&D player who wants to make a fake flag can figure out if vertical or
+horizontal stripes are more common. 
+
+IMPLEMENTATION: Symbols can be selected and then each country will be colored gray 
+for no stripes, or with a verticle/horizontal stripes, or both. 
+This selection will be done with radio buttons or a drop down. 
+
+STORY: An elementary school teacher wants to look up and show different country flags.
+
+IMPLEMENTATION: Countries can be searched in the search bar, an image of the flag
+will be displayed. It will also show the information we have on the flags (number 
+of stars, stripes, colors, etc). If a non-valid country is searched, then countries
+that contain that substring or similar letters will be shown.   
