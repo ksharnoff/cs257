@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie API reference</title>
+</head>
+<body>
+<pre style = "font-family: Monaco, monospace;">
+Kezia Sharnoff, 2025 April 21
+
+1986 Country Flag Attributes API
+All responses are in JSON
+
+REQUEST: /help
+RESPONSE:
+    This page
+
+REQUEST: /countries/{attribute}
+RESPONSE:
+    A list of countries whose flags have that attribute, and how many of that
+    attribute it has. In some cases (red, triangle, blue) it will always be 1,
+    while in other cases (sunstars, circles) it will be be the amount on the 
+    flag. 
+
+    The possible attributes are: stripes, bars, circles, crosses, saltires, 
+    sunstars, crescent, triangle, inanimateImage, animateImage, red, orange, 
+    gold, green, blue, white, black.
+    Write gold for yellow and orange for brown.
+
+    For example:
+
+        /countries/gold
+
+    will return all the countries that have gold or yellow in their flag, with a 1.
+
+    /countries/sunstars
+
+    will return all the countries that have a sun or star on their flag and how many.
+
+Note that this data is from 1986, further documentation is on <a href = "https://github.com/ksharnoff/cs257/blob/main/data/documentation.txt">GitHub</a>. 
+</pre>
+</body>
+</html>
+
