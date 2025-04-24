@@ -41,8 +41,7 @@ def get_parsed_args():
 
 
 '''
-Returns true if the cetegory (symbol or color) is correct and if the attribute
-is within the category chosen. 
+Returns true if the attribute is a symbol or color being tested for
 '''
 def not_valid_prased_args(arguments):
 	valid_attributes = ("bars", "stripes", "circles", "crosses", "saltires", 
